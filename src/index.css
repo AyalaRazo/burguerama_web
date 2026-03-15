@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-black text-white;
+    background-color: #0A0A0A;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@layer components {
+  .pixel-border {
+    @apply border-4 border-yellow-400;
+    box-shadow: 4px 4px 0px 0px rgba(249, 115, 22, 0.5);
+  }
+
+  .crt-effect {
+    @apply relative overflow-hidden;
+  }
+
+  .crt-effect::before {
+    content: '';
+    @apply absolute top-0 left-0 w-full h-full pointer-events-none;
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.1) 0px,
+      rgba(0, 0, 0, 0.1) 2px,
+      transparent 2px,
+      transparent 4px
+    );
+    z-index: 10;
+  }
+
+  .pixel-text {
+    font-family: 'Press Start 2P', cursive;
+    image-rendering: pixelated;
+  }
+
+  .retro-text {
+    font-family: 'VT323', monospace;
+  }
+}
+
+@layer utilities {
+  .text-shadow-glow-orange {
+    text-shadow: 0 0 10px rgba(249, 115, 22, 0.8), 0 0 20px rgba(249, 115, 22, 0.5);
+  }
+
+  .text-shadow-glow-yellow {
+    text-shadow: 0 0 10px rgba(251, 191, 36, 0.8), 0 0 20px rgba(251, 191, 36, 0.5);
+  }
+
+  .scanline-overlay {
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.15) 0px,
+      rgba(0, 0, 0, 0.15) 2px,
+      transparent 2px,
+      transparent 4px
+    );
+  }
+
+  .grid-bg {
+    background-image:
+      linear-gradient(rgba(249, 115, 22, 0.08) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(249, 115, 22, 0.08) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+}
+
+/* Scrollbar retro */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+  border-left: 2px solid #F97316;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F97316;
+  border: 2px solid #FBBF24;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FBBF24;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(249, 115, 22, 0.5);
+  color: #FBBF24;
+}

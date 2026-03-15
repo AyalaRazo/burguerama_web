@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://burgueramamxl.com/</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://burgueramamxl.com/foodtruck.jpg</image:loc>
+      <image:title>Burguerama — Foodtruck de hamburguesas retro en Mexicali</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://burgueramamxl.com/logo.jpg</image:loc>
+      <image:title>Logo de Burguerama</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://burgueramamxl.com/burgers/final_boss/final_boss.png</image:loc>
+      <image:title>Final Boss — Hamburguesa triple carne Burguerama</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://burgueramamxl.com/burgers/super_mario_classic/super_mario_classic.png</image:loc>
+      <image:title>Super Mario Classic — Hamburguesa clásica Burguerama</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://burgueramamxl.com/menu-1.png</image:loc>
+      <image:title>Carta Burguerama — Hamburguesas, Alitas y Hot Dogs</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://burgueramamxl.com/menu-2.png</image:loc>
+      <image:title>Carta Burguerama — Fries Invaders, Malteadas, Bebidas y Extras</image:title>
+    </image:image>
+  </url>
+
+</urlset>
