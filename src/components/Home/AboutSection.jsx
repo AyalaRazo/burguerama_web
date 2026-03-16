@@ -33,7 +33,7 @@ const AboutSection = () => {
           <div className="border-4 border-orange-500 overflow-hidden"
             style={{ boxShadow: '8px 8px 0px rgba(249,115,22,0.4)' }}>
             <img
-              src="/foodtruck.jpg"
+              src="/foodtruck.webp"
               alt="Foodtruck Burguerama en Mexicali, B.C. — hamburguesas smash con temática retro"
               className="w-full object-cover"
               style={{ maxHeight: '460px', objectPosition: 'center' }}
@@ -56,7 +56,7 @@ const AboutSection = () => {
             <div className="border-4 border-yellow-400 overflow-hidden"
               style={{ boxShadow: '6px 6px 0px rgba(251,191,36,0.3)' }}>
               <img
-                src="/personal_image.jpg"
+                src="/personal_image.webp"
                 alt="Dueños de Burguerama, foodtruck de hamburguesas en Mexicali B.C."
                 className="w-full object-cover"
               />
@@ -132,7 +132,7 @@ const AboutSection = () => {
             <div className="border-4 border-yellow-400 overflow-hidden bg-gradient-to-b from-orange-950 to-gray-900"
               style={{ boxShadow: '6px 6px 0px rgba(251,191,36,0.3)' }}>
               <img
-                src="/mascota.jpg"
+                src="/mascota.webp"
                 alt="Burgie, mascota oficial de Burguerama el foodtruck gamer de Mexicali"
                 className="w-full object-cover hover:scale-105 transition-transform duration-500"
               />

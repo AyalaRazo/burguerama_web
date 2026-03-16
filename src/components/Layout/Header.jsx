@@ -32,13 +32,13 @@ const Header = () => {
           {/* Logo: mascota cuadrada + wordmark */}
           <a href="#inicio" className="flex items-center gap-2 group shrink-0">
             <img
-              src="/logo_mascota.jpg"
+              src="/logo_mascota.webp"
               alt="Burguerama mascota"
               className="w-10 h-10 lg:w-11 lg:h-11 object-cover border-2 border-yellow-400 group-hover:border-orange-500 transition-all shrink-0"
             />
             {/* Wordmark logo — fondo negro natural sobre header negro */}
             <img
-              src="/logo.jpg"
+              src="/logo.webp"
               alt="Burguerama"
               className="h-8 lg:h-9 w-auto object-contain"
               style={{ maxWidth: '160px' }}

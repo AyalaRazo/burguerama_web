@@ -17,8 +17,8 @@ const MenuCardSection = () => {
   const imgWrapRef = useRef(null);
 
   const cards = [
-    { src: '/menu-1.png', label: 'CARTA 01', sub: 'Hamburguesas · Alitas y Boneless · Hot Dogs' },
-    { src: '/menu-2.png', label: 'CARTA 02', sub: 'Fries Invaders · Charola Gamer · Malteadas · Bebidas · Extras' },
+    { src: '/menu-1.webp', label: 'CARTA 01', sub: 'Hamburguesas · Alitas y Boneless · Hot Dogs' },
+    { src: '/menu-2.webp', label: 'CARTA 02', sub: 'Fries Invaders · Charola Gamer · Malteadas · Bebidas · Extras' },
   ];
 
   /* ── helpers ───────────────────────────────────────────── */

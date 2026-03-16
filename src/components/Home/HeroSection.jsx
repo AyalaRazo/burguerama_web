@@ -21,7 +21,7 @@ const HeroSection = () => {
       {/* Foodtruck background image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/foodtruck.jpg"
+          src="/foodtruck.webp"
           alt="Foodtruck Burguerama de noche en Mexicali, B.C. — hamburguesas smash retro"
           className="w-full h-full object-cover object-center opacity-25"
         />
@@ -172,7 +172,7 @@ const HeroSection = () => {
                 }}
               />
               <img
-                src="/logo_mascota.jpg"
+                src="/logo_mascota.webp"
                 alt="Burguerama mascot"
                 className="w-full h-full object-cover"
               />

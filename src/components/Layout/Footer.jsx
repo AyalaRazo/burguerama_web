@@ -24,9 +24,9 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <a href="#inicio" className="flex items-center gap-3 mb-4 group">
-              <img src="/logo_mascota.jpg" alt="Burguerama mascota"
+              <img src="/logo_mascota.webp" alt="Burguerama mascota"
                 className="w-10 h-10 object-cover border-2 border-yellow-400 group-hover:border-orange-500 transition-all shrink-0" />
-              <img src="/logo.jpg" alt="Burguerama"
+              <img src="/logo.webp" alt="Burguerama"
                 className="h-8 w-auto object-contain" style={{ maxWidth: '140px' }} />
             </a>
             <p className="text-gray-400 font-['VT323'] text-xl leading-relaxed mb-5">

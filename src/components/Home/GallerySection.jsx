@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
 
 const allPhotos = [
-  "/burgers/galeria/burger_galeria_01.jpg",
-  "/burgers/galeria/burger_galeria_02.jpg",
-  "/burgers/galeria/burger_galeria_03.jpg",
-  "/burgers/galeria/burger_galeria_04.jpg",
-  "/burgers/galeria/burger_galeria_05.jpg",
-  "/burgers/galeria/burger_galeria_06.jpg",
-  "/burgers/galeria/burger_galeria_07.jpg",
-  "/burgers/galeria/burger_galeria_08.jpg",
-  "/burgers/galeria/burger_galeria_09.jpg",
-  "/burgers/galeria/burger_galeria_10.jpg",
-  "/burgers/galeria/burger_galeria_11.jpg",
-  "/burgers/galeria/burger_galeria_12.jpg",
-  "/burgers/galeria/burger_galeria_13.jpg",
-  "/burgers/galeria/burger_galeria_14.jpg",
-  "/burgers/galeria/burger_galeria_15.jpg",
+  "/burgers/galeria/burger_galeria_01.webp",
+  "/burgers/galeria/burger_galeria_02.webp",
+  "/burgers/galeria/burger_galeria_03.webp",
+  "/burgers/galeria/burger_galeria_04.webp",
+  "/burgers/galeria/burger_galeria_05.webp",
+  "/burgers/galeria/burger_galeria_06.webp",
+  "/burgers/galeria/burger_galeria_07.webp",
+  "/burgers/galeria/burger_galeria_08.webp",
+  "/burgers/galeria/burger_galeria_09.webp",
+  "/burgers/galeria/burger_galeria_10.webp",
+  "/burgers/galeria/burger_galeria_11.webp",
+  "/burgers/galeria/burger_galeria_12.webp",
+  "/burgers/galeria/burger_galeria_13.webp",
+  "/burgers/galeria/burger_galeria_14.webp",
+  "/burgers/galeria/burger_galeria_15.webp",
 ];
 
 const GallerySection = () => {

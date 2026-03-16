@@ -12,7 +12,7 @@ const MenuGrid = () => {
       powerLevel: 70,
       icon: "🍄",
       category: "CLASSIC",
-      image: "/burgers/super_mario_classic/super_mario_classic.png"
+      image: "/burgers/super_mario_classic/super_mario_classic.webp"
     },
     {
       name: "DOUBLE DRAGON",
@@ -21,7 +21,7 @@ const MenuGrid = () => {
       powerLevel: 90,
       icon: "🐉",
       category: "LEGENDARY",
-      image: "/burgers/double_dragon/doube_dragon.png"
+      image: "/burgers/double_dragon/doube_dragon.webp"
     },
     {
       name: "FINAL BOSS",
@@ -31,7 +31,7 @@ const MenuGrid = () => {
       icon: "👾",
       category: "LEGENDARY",
       tag: "🔥 HOT",
-      image: "/burgers/final_boss/final_boss.png"
+      image: "/burgers/final_boss/final_boss.webp"
     },
     {
       name: "LUIGI'S CLASSIC",
@@ -40,7 +40,7 @@ const MenuGrid = () => {
       powerLevel: 72,
       icon: "🥑",
       category: "CLASSIC",
-      image: "/burgers/luigis_classic/lugis_classic.jpeg"
+      image: "/burgers/luigis_classic/lugis_classic.webp"
     },
     {
       name: "STREET MEAT FIGHTER",
@@ -49,7 +49,7 @@ const MenuGrid = () => {
       powerLevel: 88,
       icon: "🥊",
       category: "FIGHTER",
-      image: "/burgers/street_meat_fighter/street_meat_fighter.png"
+      image: "/burgers/street_meat_fighter/street_meat_fighter.webp"
     },
     {
       name: "SONIC BURGER",
@@ -58,7 +58,7 @@ const MenuGrid = () => {
       powerLevel: 75,
       icon: "⚡",
       category: "SPEED",
-      image: "/burgers/sonic_burger/sonic_burger.png"
+      image: "/burgers/sonic_burger/sonic_burger.webp"
     },
     {
       name: "PUNCH OUT BACON",
@@ -67,7 +67,7 @@ const MenuGrid = () => {
       powerLevel: 91,
       icon: "🥓",
       category: "LEGENDARY",
-      image: "/burgers/punch_out_bacon/punch_out_bacon.png"
+      image: "/burgers/punch_out_bacon/punch_out_bacon.webp"
     },
     {
       name: "CASTLEVANIA",
@@ -76,7 +76,7 @@ const MenuGrid = () => {
       powerLevel: 87,
       icon: "🧛",
       category: "CLASSIC",
-      image: "/burgers/castlevania/castlevania.png"
+      image: "/burgers/castlevania/castlevania.webp"
     },
   ];
 

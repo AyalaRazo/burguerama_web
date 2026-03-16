@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import HealthBar from '../UI/HealthBar';
 
 const wingsPhotos = [
-  "/alitas_boneless/galeria/koopa_wings_01.jpg",
-  "/alitas_boneless/galeria/koopa_wings_02.jpg",
-  "/alitas_boneless/galeria/koopa_wings_03.jpg",
-  "/alitas_boneless/galeria/koopa_wings_04.jpg",
-  "/alitas_boneless/galeria/koopa_wings_05.jpg",
-  "/alitas_boneless/galeria/koopa_wings_06.jpg",
+  "/alitas_boneless/galeria/koopa_wings_01.webp",
+  "/alitas_boneless/galeria/koopa_wings_02.webp",
+  "/alitas_boneless/galeria/koopa_wings_03.webp",
+  "/alitas_boneless/galeria/koopa_wings_04.webp",
+  "/alitas_boneless/galeria/koopa_wings_05.webp",
+  "/alitas_boneless/galeria/koopa_wings_06.webp",
 ];
 
 const WingsHotDogsSection = () => {
@@ -55,21 +55,21 @@ const WingsHotDogsSection = () => {
       description: "Salchicha de res ¼ lb, cebolla fresca, sweet relish y aderezos clásicos. El clásico que nunca falla. Insert coin to eat.",
       price: 180,
       icon: "🌭",
-      image: "/hot_dogs/dog_hunt_inferno.jpg",
+      image: "/hot_dogs/dog_hunt_inferno.webp",
     },
     {
       name: "DOGZILLA",
       description: "El dog más feroz: salchicha de res ¼ de libra, con cebolla caramelizada, un toque de chili beans y queso cheddar derretido. Un monstruo de sabor que no se anda con rodeos.",
       price: 200,
       icon: "🦖",
-      image: "/hot_dogs/dogzilla.jpeg",
+      image: "/hot_dogs/dogzilla.webp",
     },
     {
       name: "CALL OF DOGGY",
       description: "Misión cumplida: salchicha de res ¼ de libra con cebolla caramelizada, mezcla táctica de champiñones y jalapeños salteados, y un ataque certero de queso cheddar derretido. Solo para jugadores en modo difícil.",
       price: 200,
       icon: "💀",
-      image: "/hot_dogs/call_of_doggy.jpg",
+      image: "/hot_dogs/call_of_doggy.webp",
     },
   ];
 
