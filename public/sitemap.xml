@@ -4,33 +4,111 @@
 
   <url>
     <loc>https://burgueramamxl.com/</loc>
-    <lastmod>2026-03-14</lastmod>
+    <lastmod>2026-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+
+    <!-- ── Identidad ─────────────────────────────────── -->
     <image:image>
       <image:loc>https://burgueramamxl.com/foodtruck.jpg</image:loc>
-      <image:title>Burguerama — Foodtruck de hamburguesas retro en Mexicali</image:title>
+      <image:title>Burguerama — Foodtruck de hamburguesas smash retro en Mexicali, B.C.</image:title>
+      <image:caption>Foodtruck Burguerama de noche en Av. Plutarco Elías Calles 465, Mexicali</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://burgueramamxl.com/logo.jpg</image:loc>
-      <image:title>Logo de Burguerama</image:title>
+      <image:title>Logo oficial de Burguerama — Foodtruck Gamer Mexicali</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://burgueramamxl.com/burgers/final_boss/final_boss.png</image:loc>
-      <image:title>Final Boss — Hamburguesa triple carne Burguerama</image:title>
+      <image:loc>https://burgueramamxl.com/mascota.jpg</image:loc>
+      <image:title>Burgie — Mascota oficial de Burguerama el foodtruck gamer de Mexicali</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://burgueramamxl.com/burgers/super_mario_classic/super_mario_classic.png</image:loc>
-      <image:title>Super Mario Classic — Hamburguesa clásica Burguerama</image:title>
+      <image:loc>https://burgueramamxl.com/personal_image.jpg</image:loc>
+      <image:title>Dueños de Burguerama, foodtruck de hamburguesas smash en Mexicali B.C.</image:title>
     </image:image>
+
+    <!-- ── Cartas del menú ───────────────────────────── -->
     <image:image>
       <image:loc>https://burgueramamxl.com/menu-1.png</image:loc>
-      <image:title>Carta Burguerama — Hamburguesas, Alitas y Hot Dogs</image:title>
+      <image:title>Carta Burguerama — Hamburguesas smash, Alitas y Hot Dogs en Mexicali</image:title>
+      <image:caption>Menú principal con precios: hamburguesas desde $170 hasta $250 MXN</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://burgueramamxl.com/menu-2.png</image:loc>
       <image:title>Carta Burguerama — Fries Invaders, Malteadas, Bebidas y Extras</image:title>
     </image:image>
+
+    <!-- ── Hamburguesas ──────────────────────────────── -->
+    <image:image>
+      <image:loc>https://burgueramamxl.com/burgers/super_mario_classic/super_mario_classic.png</image:loc>
+      <image:title>Super Mario Classic — Smash burger clásica $170 MXN Burguerama Mexicali</image:title>
+      <image:caption>Carne de res smash, cebolla caramelizada, queso americano y aderezo pixelado</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://burgueramamxl.com/burgers/luigis_classic/lugis_classic.jpeg</image:loc>
+      <image:title>Luigi's Classic — Smash burger con lechuga y tomate $180 MXN Burguerama</image:title>
+      <image:caption>Carne de res smash, lechuga, tomate, cebolla morada y aderezo pixelado</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://burgueramamxl.com/burgers/castlevania/castlevania.png</image:loc>
+      <image:title>Castlevania — Burger de pollo búfalo o BBQ $190 MXN Burguerama Mexicali</image:title>
+      <image:caption>Pechuga de pollo en salsa búfalo o BBQ, lechuga, tomate y aderezo ranch</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://burgueramamxl.com/burgers/double_dragon/doube_dragon.png</image:loc>
+      <image:title>Double Dragon — Doble smash burger $220 MXN Burguerama Mexicali</image:title>
+      <image:caption>Doble carne de res smash, quesos americano y suizo, cebolla caramelizada</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://burgueramamxl.com/burgers/street_meat_fighter/street_meat_fighter.png</image:loc>
+      <image:title>Street Meat Fighter — Smash burger con jalapeños $230 MXN Burguerama</image:title>
+      <image:caption>Carne de res, tocino, champiñones y jalapeños salteados</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://burgueramamxl.com/burgers/sonic_burger/sonic_burger.png</image:loc>
+      <image:title>Sonic Burger — Smash burger BBQ con aros de cebolla $230 MXN Burguerama</image:title>
+      <image:caption>Carne de res smash, tocino, queso suizo, aros de cebolla y salsa BBQ</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://burgueramamxl.com/burgers/punch_out_bacon/punch_out_bacon.png</image:loc>
+      <image:title>Punch Out Bacon — Smash burger con mermelada de tocino $230 MXN Burguerama</image:title>
+      <image:caption>Carne de res smash, mermelada de tocino, queso americano y pepinillos</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://burgueramamxl.com/burgers/final_boss/final_boss.png</image:loc>
+      <image:title>Final Boss — Triple smash burger $250 MXN la más poderosa de Burguerama Mexicali</image:title>
+      <image:caption>Triple carne de res smash, doble queso americano y suizo, cebolla caramelizada</image:caption>
+    </image:image>
+
+    <!-- ── Alitas / Boneless ─────────────────────────── -->
+    <image:image>
+      <image:loc>https://burgueramamxl.com/wings/koopa_wings/koopa_wings.png</image:loc>
+      <image:title>Koopa Wings — Alitas y boneless en 4 niveles de picante Burguerama Mexicali</image:title>
+      <image:caption>Alitas y boneless: Mild, Medium, Hot e Inferno</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://burgueramamxl.com/alitas_boneless/galeria/koopa_wings_01.jpg</image:loc>
+      <image:title>Koopa Wings alitas buffalo Burguerama Mexicali</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://burgueramamxl.com/alitas_boneless/galeria/koopa_wings_02.jpg</image:loc>
+      <image:title>Koopa Wings boneless Burguerama Mexicali</image:title>
+    </image:image>
+
+    <!-- ── Hot Dogs ──────────────────────────────────── -->
+    <image:image>
+      <image:loc>https://burgueramamxl.com/hot_dogs/dog_hunt_inferno.jpg</image:loc>
+      <image:title>Dog Hunt Inferno — Hot dog gourmet picante Burguerama Mexicali</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://burgueramamxl.com/hot_dogs/call_of_doggy.jpg</image:loc>
+      <image:title>Call of Doggy — Hot dog gourmet Burguerama Mexicali</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://burgueramamxl.com/hot_dogs/dogzilla.jpeg</image:loc>
+      <image:title>Dogzilla — Hot dog gourmet Burguerama Mexicali</image:title>
+    </image:image>
+
   </url>
 
 </urlset>
