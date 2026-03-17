@@ -64,7 +64,7 @@ const reviews = [
 ];
 
 const StarRating = ({ count = 5, filled = 5 }) => (
-  <div className="flex gap-0.5" aria-label={`${filled} de ${count} estrellas`}>
+  <div className="flex gap-0.5" role="img" aria-label={`${filled} de ${count} estrellas`}>
     {Array.from({ length: count }).map((_, i) => (
       <svg key={i} className={`w-4 h-4 ${i < filled ? 'text-yellow-400' : 'text-gray-600'}`}
         fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
@@ -266,18 +266,21 @@ const ReviewsSection = () => {
             </button>
 
             {/* Dots */}
-            <div className="flex gap-2">
+            <div className="flex">
               {reviews.map((_, i) => (
                 <button
                   key={i}
                   onClick={() => setCurrent(i)}
-                  className={`transition-all duration-200 cursor-pointer ${
+                  className="flex items-center justify-center min-w-[44px] min-h-[44px] cursor-pointer"
+                  aria-label={`Ir a reseña ${i + 1}`}
+                  aria-current={i === current ? 'true' : undefined}
+                >
+                  <span className={`transition-all duration-200 block ${
                     i === current
                       ? 'w-6 h-3 bg-orange-500 border-2 border-orange-700'
                       : 'w-3 h-3 bg-gray-700 border-2 border-gray-600 hover:bg-gray-500'
-                  }`}
-                  aria-label={`Ir a reseña ${i + 1}`}
-                />
+                  }`} />
+                </button>
               ))}
             </div>
 
