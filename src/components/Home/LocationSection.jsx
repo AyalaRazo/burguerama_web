@@ -156,7 +156,7 @@ const LocationSection = () => {
                 </div>
                 <div className="flex justify-end">
                   <a href={mapsUrl} target="_blank" rel="noopener noreferrer">
-                    <PixelButton size="large">🗺️ CÓMO LLEGAR</PixelButton>
+                    <PixelButton size="large">📍 VER EN GOOGLE MAPS</PixelButton>
                   </a>
                 </div>
               </div>
