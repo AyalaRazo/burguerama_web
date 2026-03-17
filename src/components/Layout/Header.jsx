@@ -32,14 +32,18 @@ const Header = () => {
           {/* Logo: mascota cuadrada + wordmark */}
           <a href="#inicio" className="flex items-center gap-2 group shrink-0">
             <img
-              src="/logo_mascota.webp"
+              src="/logo_mascota-100w.webp"
+              srcSet="/logo_mascota-100w.webp 1x, /logo_mascota-480w.webp 2x"
               alt="Burguerama mascota"
+              width="44" height="44"
               className="w-10 h-10 lg:w-11 lg:h-11 object-cover border-2 border-yellow-400 group-hover:border-orange-500 transition-all shrink-0"
             />
             {/* Wordmark logo — fondo negro natural sobre header negro */}
             <img
-              src="/logo.webp"
+              src="/logo-200w.webp"
+              srcSet="/logo-200w.webp 1x, /logo-480w.webp 2x"
               alt="Burguerama"
+              width="160" height="68"
               className="h-8 lg:h-9 w-auto object-contain"
               style={{ maxWidth: '160px' }}
             />

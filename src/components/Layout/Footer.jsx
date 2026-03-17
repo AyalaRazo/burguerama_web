@@ -24,10 +24,21 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <a href="#inicio" className="flex items-center gap-3 mb-4 group">
-              <img src="/logo_mascota.webp" alt="Burguerama mascota"
-                className="w-10 h-10 object-cover border-2 border-yellow-400 group-hover:border-orange-500 transition-all shrink-0" />
-              <img src="/logo.webp" alt="Burguerama"
-                className="h-8 w-auto object-contain" style={{ maxWidth: '140px' }} />
+              <img
+                src="/logo_mascota-100w.webp"
+                srcSet="/logo_mascota-100w.webp 1x, /logo_mascota-480w.webp 2x"
+                alt="Burguerama mascota"
+                width="40" height="40"
+                className="w-10 h-10 object-cover border-2 border-yellow-400 group-hover:border-orange-500 transition-all shrink-0"
+              />
+              <img
+                src="/logo-200w.webp"
+                srcSet="/logo-200w.webp 1x, /logo-480w.webp 2x"
+                alt="Burguerama"
+                width="140" height="59"
+                className="h-8 w-auto object-contain"
+                style={{ maxWidth: '140px' }}
+              />
             </a>
             <p className="text-gray-400 font-['VT323'] text-xl leading-relaxed mb-5">
               El foodtruck de hamburguesas con la máxima puntuación en sabor. Desde los píxeles hasta tu boca.
