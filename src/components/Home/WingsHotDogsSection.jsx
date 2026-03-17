@@ -198,7 +198,7 @@ const WingsHotDogsSection = () => {
         <div className="border-t-4 border-orange-500/50 pt-14">
           <div className="text-center mb-10">
             <div className="inline-block bg-orange-500/10 border-2 border-orange-500/30 px-4 py-2 mb-4">
-              <span className="font-['VT323'] text-orange-400 text-xl tracking-widest">🌭 HOT DOGS</span>
+              <span className="font-['VT323'] text-orange-400 text-xl tracking-widest">🌭 CHILI DOGS</span>
             </div>
             <h2 className="font-['Press_Start_2P'] text-3xl md:text-4xl text-orange-400 mb-2 leading-tight"
               style={{ textShadow: '0 0 20px rgba(249,115,22,0.4)' }}>
