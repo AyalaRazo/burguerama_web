@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import HealthBar from '../UI/HealthBar';
+import { srcSet, srcSetSmall } from '../../utils/imageUtils';
 
 const wingsPhotos = [
   "/alitas_boneless/galeria/koopa_wings_01.webp",
@@ -122,14 +123,28 @@ const WingsHotDogsSection = () => {
           <div className="relative">
             <div className="relative border-4 border-yellow-400 overflow-hidden aspect-square"
               style={{ boxShadow: '6px 6px 0px rgba(251,191,36,0.3)' }}>
-              <img src={wingsPhotos[activePhoto]} alt="Wings" className="w-full h-full object-cover" />
+              <img
+                src={wingsPhotos[activePhoto]}
+                srcSet={srcSet(wingsPhotos[activePhoto])}
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                alt="Wings"
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
             </div>
             <div className="flex gap-2 mt-2">
               {wingsPhotos.map((photo, i) => (
                 <button key={i} onClick={() => setActivePhoto(i)}
                   className={`flex-1 aspect-square overflow-hidden border-2 transition-all
                     ${activePhoto === i ? 'border-orange-500' : 'border-gray-700 hover:border-yellow-400'}`}>
-                  <img src={photo} alt={`wing ${i + 1}`} className="w-full h-full object-cover" />
+                  <img
+                    src={photo}
+                    srcSet={srcSetSmall(photo)}
+                    sizes="17vw"
+                    alt={`wing ${i + 1}`}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
                 </button>
               ))}
             </div>
@@ -198,8 +213,14 @@ const WingsHotDogsSection = () => {
               <div key={i} className="bg-gray-900 border-4 border-orange-500 overflow-hidden flex flex-col"
                 style={{ boxShadow: '4px 4px 0px rgba(249,115,22,0.3)' }}>
                 <div className="relative h-52 overflow-hidden shrink-0">
-                  <img src={dog.image} alt={dog.name}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                  <img
+                    src={dog.image}
+                    srcSet={dog.image.includes('dogzilla') ? srcSetSmall(dog.image) : srcSet(dog.image)}
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    alt={dog.name}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                  />
                   <div className="absolute inset-0 pointer-events-none"
                     style={{ background: 'repeating-linear-gradient(0deg, rgba(0,0,0,0.08) 0px, rgba(0,0,0,0.08) 2px, transparent 2px, transparent 4px)' }} />
                   <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-gray-900 to-transparent" />

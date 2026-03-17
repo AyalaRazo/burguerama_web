@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PixelButton from '../UI/PixelButton';
 import DeliveryBadges from '../UI/DeliveryBadges';
+import { srcSet } from '../../utils/imageUtils';
 
 const HeroSection = () => {
   const [score, setScore] = useState(0);
@@ -22,8 +23,11 @@ const HeroSection = () => {
       <div className="absolute inset-0 z-0">
         <img
           src="/foodtruck.webp"
+          srcSet={srcSet('/foodtruck.webp')}
+          sizes="100vw"
           alt="Foodtruck Burguerama de noche en Mexicali, B.C. — hamburguesas smash retro"
           className="w-full h-full object-cover object-center opacity-25"
+          fetchpriority="high"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0A0A0A]/60 via-[#0A0A0A]/40 to-[#0A0A0A]" />
       </div>
@@ -173,8 +177,11 @@ const HeroSection = () => {
               />
               <img
                 src="/logo_mascota.webp"
+                srcSet={srcSet('/logo_mascota.webp')}
+                sizes="(max-width: 768px) 50vw, 300px"
                 alt="Burguerama mascot"
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
               {/* Corner decorations */}
               <div className="absolute top-1 left-1 w-5 h-5 border-t-2 border-l-2 border-yellow-400 z-20"></div>

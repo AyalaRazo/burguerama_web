@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { srcSet } from '../../utils/imageUtils';
 
 const allPhotos = [
   "/burgers/galeria/burger_galeria_01.webp",
@@ -61,6 +62,8 @@ const GallerySection = () => {
             >
               <img
                 src={src}
+                srcSet={srcSet(src)}
+                sizes="(max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
                 alt={`Hamburguesa smash Burguerama Mexicali — foto ${i + 1}`}
                 className="w-full object-cover block group-hover:scale-105 transition-transform duration-500"
                 loading="lazy"

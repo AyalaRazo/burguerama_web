@@ -1,4 +1,5 @@
 import React from 'react';
+import { srcSet } from '../../utils/imageUtils';
 
 const AboutSection = () => {
   return (
@@ -34,9 +35,12 @@ const AboutSection = () => {
             style={{ boxShadow: '8px 8px 0px rgba(249,115,22,0.4)' }}>
             <img
               src="/foodtruck.webp"
+              srcSet={srcSet('/foodtruck.webp')}
+              sizes="(max-width: 768px) 100vw, 768px"
               alt="Foodtruck Burguerama en Mexicali, B.C. — hamburguesas smash con temática retro"
               className="w-full object-cover"
               style={{ maxHeight: '460px', objectPosition: 'center' }}
+              loading="lazy"
             />
             {/* Scanlines */}
             <div className="absolute inset-0 pointer-events-none"
@@ -57,8 +61,11 @@ const AboutSection = () => {
               style={{ boxShadow: '6px 6px 0px rgba(251,191,36,0.3)' }}>
               <img
                 src="/personal_image.webp"
+                srcSet={srcSet('/personal_image.webp')}
+                sizes="(max-width: 768px) 100vw, 50vw"
                 alt="Dueños de Burguerama, foodtruck de hamburguesas en Mexicali B.C."
                 className="w-full object-cover"
+                loading="lazy"
               />
               <div className="absolute inset-0 pointer-events-none"
                 style={{ background: 'repeating-linear-gradient(0deg, rgba(0,0,0,0.06) 0px, rgba(0,0,0,0.06) 2px, transparent 2px, transparent 4px)' }} />
@@ -133,8 +140,11 @@ const AboutSection = () => {
               style={{ boxShadow: '6px 6px 0px rgba(251,191,36,0.3)' }}>
               <img
                 src="/mascota.webp"
+                srcSet={srcSet('/mascota.webp')}
+                sizes="(max-width: 768px) 100vw, 50vw"
                 alt="Burgie, mascota oficial de Burguerama el foodtruck gamer de Mexicali"
                 className="w-full object-cover hover:scale-105 transition-transform duration-500"
+                loading="lazy"
               />
             </div>
             <div className="absolute -top-3 -right-3 bg-orange-500 border-2 border-orange-700 px-3 py-1">
