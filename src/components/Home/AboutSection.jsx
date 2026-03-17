@@ -84,13 +84,13 @@ const AboutSection = () => {
               <p className="font-['Press_Start_2P'] text-xs text-orange-400 mb-4">// BACKSTORY</p>
 
               <p className="font-['VT323'] text-gray-200 text-2xl leading-relaxed mb-4">
-                Somos una pareja que comparte dos grandes pasiones: los videojuegos retro y las hamburguesas de calidad.
+                Todo comenzó con una idea. Gerardo, filósofo. Miriam, diseñadora. No veníamos de la cocina, pero teníamos hambre de hacer algo auténtico, de conectar con la gente.
               </p>
               <p className="font-['VT323'] text-gray-300 text-xl leading-relaxed mb-4">
-                Burguerama nació de esa mezcla perfecta: llevar la nostalgia de los 8 bits a cada mordida. Cada burger es un nivel, cada visita una nueva partida.
+                Así nació Burguerama. En un food truck con Smash Burgers, sin poses, sin complicaciones. Porque lo bueno no necesita complicarse. Solo necesita fuego, ganas y <span className="text-yellow-400">corazón</span>.
               </p>
               <p className="font-['VT323'] text-gray-300 text-xl leading-relaxed mb-6">
-                Nos encontrarás en Mexicali, B.C. con el truck más épico de la ciudad y las hamburguesas con más <span className="text-yellow-400">power level</span> de la frontera.
+                No éramos de la cocina pero aquí andamos echándole sazón y alma. Esto es Burguerama — hecho de ideas, riesgos y mucho sabor. <span className="text-orange-400">Bienvenido, el juego sigue.</span>
               </p>
 
               <div className="grid grid-cols-2 gap-3">
@@ -117,13 +117,13 @@ const AboutSection = () => {
               style={{ boxShadow: '4px 4px 0px rgba(249,115,22,0.3)' }}>
               <p className="font-['Press_Start_2P'] text-xs text-orange-400 mb-4">// NUESTRO MASCOT</p>
               <h3 className="font-['Press_Start_2P'] text-lg text-yellow-400 mb-3 leading-relaxed">
-                BURGIE
+                SMASHY
               </h3>
               <p className="font-['VT323'] text-gray-200 text-2xl leading-relaxed mb-3">
-                El héroe pixelado de Burguerama. Con su joystick en la mano izquierda y una burger en la derecha, Burgie representa lo que somos: gamers con hambre.
+                Smashy no sólo es nuestro personaje — es el que se emociona cuando pides tu smashburger favorita y guarda todos tus "¡mmm qué rico!" como si fueran monedas de oro. 🪙
               </p>
               <p className="font-['VT323'] text-gray-400 text-xl leading-relaxed">
-                Lleva la chaqueta de Burguerama con orgullo y siempre está listo para el siguiente nivel.
+                Es el primer fan de nuestras burgers. Aunque vive en el mundo pixelado de Burguerama, te acompaña en cada antojo con su <span className="text-yellow-400">ternura aplastante</span>. Y sí, cada vez que alguien sonríe al probar una burger… Smashy gana una vida extra. 🎮
               </p>
               <div className="mt-4 flex items-center gap-2">
                 <span className="font-['Press_Start_2P'] text-xs text-gray-600">POWER:</span>
@@ -142,7 +142,7 @@ const AboutSection = () => {
                 src="/mascota.webp"
                 srcSet={srcSet('/mascota.webp')}
                 sizes="(max-width: 768px) 100vw, 50vw"
-                alt="Burgie, mascota oficial de Burguerama el foodtruck gamer de Mexicali"
+                alt="Smashy, mascota oficial de Burguerama el foodtruck gamer de Mexicali"
                 className="w-full object-cover hover:scale-105 transition-transform duration-500"
                 loading="lazy"
               />
